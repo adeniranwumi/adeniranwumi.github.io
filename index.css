@@ -1,0 +1,244 @@
+body{
+	margin: 0;
+	color: white;
+	font-family: Sans-serif;
+}
+
+div.body{
+	background-image: url(images/lion.jpeg);
+	width: 100%;
+	height: 547px;
+	background-size: cover;
+	background-repeat: none;
+}
+
+#setOpacity{
+	width: 100%;
+	height: 547px;
+	background-color: rgba(0,0,0,0.7);
+
+}
+
+div.intro h1, h5{
+	margin: 0;
+	text-align: center;
+	padding-top:35px;
+}
+
+div.intro h1{
+	font-size: 60px;
+	padding-top: 150px;
+	font-weight: 300;
+}
+
+div.intro h5{
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: 100;
+}
+
+nav ul.navbar{
+	margin: 0;
+	margin-right: 350px;
+	margin-top: 50px;
+}
+
+ul.navbar li{
+	list-style-type: none;
+	float: right;
+	margin: 20px 20px 20px 60px;
+}
+
+ul.navbar li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+nav ul.navbar li a:hover{
+    font-size:16px;
+    border-bottom: 1px solid white;
+}
+
+footer{
+	height: 100%;
+}
+
+footer div.footy{
+	margin: 0;
+	padding: 0;
+	color: black;
+	text-align: center;
+}
+
+/******  About Page  ******/
+div.fulllength{
+	height: 600px;
+}
+
+#setOpacityabout{
+	width: 100%;
+	height: 600px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+nav ul.aboutNavbar{
+	margin: 0;
+	margin-right: 330px;
+}
+
+ul.aboutNavbar li{
+	list-style-type: none;
+	float: right;
+	margin: 20px 20px 20px 60px;
+}
+
+ul.aboutNavbar li a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+}
+
+nav ul.aboutNavbar li a:hover{
+    font-size:18px;
+    border-bottom: 1px solid white;
+}
+
+li.dropdownIcon{
+	display: none;
+}
+
+div.aboutInfo{
+	padding: 120px 20px 20px 80px;
+}
+
+div.aboutInfo p, h3{
+	text-align: center;
+}
+
+div.aboutInfo li{
+	list-style-type: upper-roman;
+}
+
+div.moreinfo{
+	margin: 40px 20px 5px 20px;
+	text-align: center;
+}
+
+.borderImg{
+   border-radius: 50%;
+   width:250px;
+   height:250px; 
+   display: block; 
+   margin: auto;
+} 
+
+/******   Contact page   *****/
+h2.hello{
+	font-weight: 200;
+	margin: 0;
+	text-align: center;
+	padding-top: 100px;
+}
+
+form{
+    margin: 10px 150px 0 300px;;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 420px;
+    height: 300px;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+form label{
+    text-align: right;
+    float: left;
+    clear: left;
+}
+
+form input, textarea{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    
+}
+
+[type="text"], [type="email"]{
+	width: 350px;
+	height: 17px;
+	padding: 7px;
+	margin-left: 10px;
+}
+
+form textarea{
+	margin-top: 10px;
+    width: 350px;
+    height: 100px;
+}
+
+[type="submit"]{
+    clear:left;
+    margin: 5px 20px 5px 150px;
+    width: 100px;
+    height: 30px;
+    font-weight: 200;
+    border: none;
+    background-color: white;
+}
+
+/*****  portfolio page  ******/
+
+div.portlength{
+	height: 900px;
+}
+
+#setOpacityport{
+	width: 100%;
+	height: 900px;
+	background-color: rgba(0,0,0,0.7);
+
+}
+
+.portheading{
+	margin: 0;
+	text-align: center;
+	padding-top: 90px;
+	font-weight: 100;
+	line-height: 20px;
+}
+
+div.portfoliobody h4 a{
+	text-decoration: none;
+	color: white;
+}
+
+div.portfoliobody h4 a:hover{
+	text-decoration: underline;
+	color: purple;
+}
+
+.mockupImg{
+   width:320px;
+   height:280px; 
+   display: flex; 
+   float: left;
+   margin:20px 5px 30px 22px;
+   border-right: 3px;
+   border: 2px solid white;
+} 
+
+.secondheading{
+	margin:0;
+	text-align: center;
+	padding: 50px;
+	font-weight: 100;
+
+}
+
+div.videoContainer iframe{
+	display: block;
+	margin: auto;
+}
